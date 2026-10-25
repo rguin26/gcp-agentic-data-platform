@@ -13,6 +13,7 @@ An end-to-end, security-first Cloud Data & AI platform built on **Google Cloud P
 
 The system establishes an autonomous AI agent loop capable of querying enterprise operational data in BigQuery via standard Model Context Protocol tool bindings.
 
+```
 +-----------------------------------------------------------------------------------+
 |                                GCP ENVIRONMENT                                   |
 |                                                                                   |
@@ -30,6 +31,7 @@ The system establishes an autonomous AI agent loop capable of querying enterpris
 | Application Default Credentials (ADC) |
 |    (Zero-Hardcoding / IAM Security)   |
 +---------------------------------------+
+```
 
 ### Key Workflow Steps
 1. **Data Ingestion**: Operational logs are structured and loaded into Google BigQuery using `google-cloud-bigquery`.
